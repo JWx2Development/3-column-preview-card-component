@@ -1,0 +1,93 @@
+html {
+  font-size: 15px;
+  font-family: Lexend Deca;
+}
+.feature {
+  display: flex;
+  float: left;
+  margin: 155px 230px;
+}
+.column {
+  width: 270px;
+  height: 450px;
+}
+.columnOne {
+  background-color: hsl(31, 77%, 52%);
+}
+.columnTwo {
+  background-color: hsl(184, 100%, 22%);
+}
+.columnThree {
+  background-color: hsl(179, 100%, 13%);
+}
+.feature {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.carPic {
+  padding: 40px 40px 35px;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-left: 40px;
+  padding-right: 60px;
+  font-weight: 400;
+}
+h3 {
+  color: hsl(0, 0%, 95%);
+  padding-left: 40px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.btnOne {
+  color: hsl(31, 77%, 52%);
+  margin: 80px 40px 40px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border-style: none;
+}
+.btnOne:hover {
+  cursor: pointer;
+}
+.btnTwo {
+  color: hsl(184, 100%, 22%);
+  margin: 80px 40px 40px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border-style: none;
+}
+.btnTwo:hover {
+  cursor: pointer;
+}
+.btnThree {
+  color: hsl(179, 100%, 13%);
+  margin: 80px 40px 40px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border-style: none;
+}
+.btnThree:hover {
+  cursor: pointer;
+}
+
+@media screen and (width: 375px) {
+  .feature {
+    display: inline-block;
+    margin: 90px 25px;
+  }
+  .btnOne,
+  .btnTwo,
+  .btnThree {
+    margin-top: 30px;
+  }
+  .carPic {
+    padding-bottom: 0;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
